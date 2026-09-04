@@ -106,6 +106,9 @@ a { color: inherit; }
 }
 
 .nav__mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font-family: var(--display);
   font-size: 1.4rem;
   letter-spacing: 0.01em;
@@ -113,6 +116,16 @@ a { color: inherit; }
   white-space: nowrap;
 }
 .nav__dot { color: var(--accent); }
+
+/* V monogram badge */
+.nav__logo {
+  flex: none;
+  width: 27px;
+  height: 27px;
+  transition: transform 0.2s;
+}
+.nav__logo svg { width: 100%; height: 100%; display: block; }
+.nav__mark:hover .nav__logo { transform: rotate(-6deg) scale(1.05); }
 
 .nav__links {
   display: flex;
