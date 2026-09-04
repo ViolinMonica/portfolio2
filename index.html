@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- ============================================================
+  EDIT ME: page title + description (shows in Google results)
+  ============================================================ -->
+  <title>Violin Monica - Portfolio</title>
+  <meta name="description" content="A cybersecurity enthusiast, computer science student in Universitas Indonesia.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+  <a class="skip" href="#home">Skip to content</a>
+  
+  <!-- ============================== NAV ============================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      
+      <!-- EDIT ME: your name / wordmark -->
+      <a class="nav__mark" href="#home">
+        Violin&nbsp;Monica<span class="nav__dot">.</span>
+      </a>
+      
+      <nav class="nav__links" id="navLinks" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+        
+        <span class="nav__rule" aria-hidden="true"></span>
+        
+        <!-- EDIT ME: replace the two href="#" with your profile URLs -->
+        <span class="nav__social">
+          <a href="https://linkedin.com/in/violin-monica" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05A4.2 4.2 0 0 1 17.6 8.7c3.2 0 3.9 2 3.9 4.7V21h-4v-6.3c0-1.5-.3-2.7-2-2.7-1.6 0-2 1.1-2 2.6V21h-3.9V9z"/></svg>
+          </a>
+          <a href="https://github.com/ViolinMonica" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.63 22.42c.57.1.78-.25.78-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.52-1.34-1.28-1.7-1.28-1.7-1.05-.71.08-.7.08-.7 1.16.09 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.26 5.69.42.36.79 1.07.79 2.16v3.2c0 .3.2.66.79.55A11.5 11.5 0 0 0 12 .5z"/></svg>
+          </a>
+        </span>
+      </nav>
+      
+      <button class="nav__burger" id="navBurger" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+      
+    </div>
+  </header>
+  
+  <main>
+    
+    <!-- ============================== HOME ============================== -->
+    <section class="hero" id="home">
+      <p class="hero__kicker">
+        <!-- EDIT ME: location + availability -->
+        Based in Depok &nbsp;·&nbsp; Open to internship
+      </p>
+      
+      <h1 class="hero__title">
+        I <em>build</em> things that<br>
+        turn complex problems<br> into
+        simple solutions.
+      </h1>
+      
+      <div class="hero__meta">
+        <p class="hero__blurb">
+          I’m a computer science student in Universitas Indonesia
+          who likes figuring out how things work, then building or breaking them to see what happens. 
+          Right now, I’m working on software projects and security problems, from web vulnerabilities to reverse engineering. 
+        </p>
+        <ul class="hero__links">
+          <li><a href="#project">See selected work</a></li>
+          <li><a href="#contact">Get in touch</a></li>
+          <li><a href="assets/cv.pdf" target="_blank" rel="noopener">Curriculum vitae</a></li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="section" id="about">
+      <div class="section__head">
+        <span class="idx">01</span>
+        <h2>About</h2>
+      </div>
+      
+      <div class="section__body about">
+        <div class="about__text">
+          <p class="lead">
+            I like problems where I have to figure out what’s actually going on. Most of my work sits around software and security.
+          </p>
+          <p>
+            I’m currently studying Computer Science in Universitas Indonesia while learning outside the classroom through projects, CTFs, and experimenting with systems on my own. A lot of my interest in security came from simply wanting to understand what happens underneath the interface; from web applications and APIs to binaries and authentication.
+          </p>
+          <p>
+            Right now, I’m working on software and security projects and looking for opportunities where I can build, investigate, and learn from real systems. If you have a problem that isn’t solved by following a tutorial, I’d like to hear about it.
+          </p>
+        </div>
+        
+        <aside class="about__facts">
+          <dl>
+            <dt>Currently</dt><dd>Undergraduate Student in Universitas Indonesia</dd>
+            <dt>Focus</dt><dd>Cybersecurity, Software Engineering</dd>
+            <dt>Tools</dt><dd>Python, SQL, Git, Linux, Burp Suite, Ghidra, Wireshark, Docker</dd>
+            <dt>Languages</dt><dd>English, Bahasa Indonesia, Mandarin</dd>
+          </dl>
+          
+          <figure class="about__portrait">
+            <img src="assets/portrait.jpg" alt="Portrait of Violin Monica" loading="lazy">
+          </figure>
+        </aside>
+      </div>
+    </section>
+    
+    <section class="section" id="skills">
+      <div class="section__head">
+        <span class="idx">02</span>
+        <h2>Skills</h2>
+      </div>
+      
+      <div class="section__body">
+        <div class="skills">
+          
+          <div class="skills__group">
+            <h3>Languages</h3>
+            <ul>
+              <li>Bahasa Indonesia (Native proficiency)</li>
+              <li>English (Professional proficiency)</li>
+              <li>Mandarin (Basic proficiency)</li>
+            </ul>
+          </div>
+          
+          <div class="skills__group">
+            <h3>Programming Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C++</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          
+          <div class="skills__group">
+            <h3>Fullstack</h3>
+            <ul>
+              <li>Django</li>
+              <li>Next.js</li>
+              <li>REST API</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>React</li>
+              <li>Postman</li>
+            </ul>
+          </div>
+          
+          <div class="skills__group">
+            <h3>Databases</h3>
+            <ul>
+              <li>PostgreSQL</li>
+              <li>SQLite</li>
+            </ul>
+          </div>
+          
+          <div class="skills__group">
+            <h3>Cybersecurity</h3>
+            <ul>
+              <li>Burp Suite</li>
+              <li>Wireshark</li>
+              <li>Nmap</li>
+              <li>Ghidra</li>
+            </ul>
+          </div>
+          
+          <div class="skills__group">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Linux</li>
+              <li>VSCode</li>
+              <li>Docker</li>
+            </ul>
+          </div>
+          
+          <div class="skills__group">
+            <h3>Robotic</h3>
+            <ul>
+              <li>Robot Operating System (ROS)</li>
+              <li>Arduinob</li>
+            </ul>
+          </div>
+          
+          
+          <div class="skills__group">
+            <h3>Beside the keyboard</h3>
+            <ul>
+              <li>UI/UX</li>
+              <li>Figma</li>
+              <li>Graphic Design</li>
+              <li>Painting</li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section class="section" id="experience">
+      <div class="section__head">
+        <span class="idx">03</span>
+        <h2>Experience</h2>
+      </div>
+      
+      <div class="section__body">
+        <ol class="jobs">
+          
+          <li class="job">
+            <div class="job__when">Aug 2026 — present</div>
+            <div class="job__what">
+              <h3>Teaching Assistant of Discrete Mathematics 1</h3>
+              <p class="job__org">Fasilkom UI, Depok</p>
+              <p>
+                <ul>
+                  <li>Supervising quiz sessions</li>
+                  <li>Teaching tutorial sessions</li>
+                  <li>Graded and evaluated student quizzes</li>
+                </ul>
+              </p>
+              <ul class="job__tags">
+                <li>Teaching</li><li>Math</li>
+              </ul>
+            </div>
+          </li>
+          
+          <li class="job">
+            <div class="job__when">March 2026 — present</div>
+            <div class="job__what">
+              <h3>Member of Reignblaze (Indonesian SAR Robot Contest Team) Programming Division</h3>
+              <p class="job__org">Tim Robotika UI, Depok</p>
+              <p>Contributed to developing the control program for a line-following robot using Arduino microcontroller in a friendly inter-team competition</p>
+              <ul class="job__tags">
+                <li>Robot Operating System (ROS)</li><li>Arduino</li><li>Ubuntu</li><li>C++</li><li>Docker</li>
+              </ul>
+            </div>
+          </li>
+          
+          <li class="job">
+            <div class="job__when">Feb 2026 — present</div>
+            <div class="job__what">
+              <h3>Member</h3>
+              <p class="job__org">RISTEK Fasilkom UI, Depok</p>
+              <p>
+                <ul>
+                  <li>Represented University of Indonesia in national-level cybersecurity competitions to strengthen the organization's technical portfolio</li>
+                  <li>Developed Capture The Flag (CTF) challenges for the RISTEK Bobol website, specializing in the Jail and Reverse Engineering categories</li>
+                </ul>
+              </p>
+              <ul class="job__tags">
+                <li>CTF</li><li>Cybersecurity</li><li>Burp Suite</li><li>Wireshark</li><li>Linux</li><li>Nmap</li><li>Ghidra</li><li>Web Exploitation</li><li>Reverse Engineering</li>
+              </ul>
+            </div>
+          </li>
+          
+          <li class="job">
+            <div class="job__when">Feb 2026 — Jun 2026</div>
+            <div class="job__what">
+              <h3>Teaching Assistant of Programming Foundations 1</h3>
+              <p class="job__org">Fasilkom UI, Depok</p>
+              <p>
+                <ul>
+                  <li>Supervising programming lab sessions</li>
+                  <li>Developed problems and sample solutions for programming lab exercises</li>
+                  <li>Graded and evaluated student quizzes and programming lab results</li>
+                </ul>
+              </p>
+              <ul class="job__tags">
+                <li>Teaching</li><li>Python</li><li>Algorithm</li>
+              </ul>
+            </div>
+          </li>
+          
+          <li class="job">
+            <div class="job__when">Sept 2025 — Jan 2026</div>
+            <div class="job__what">
+              <h3>Paramita Intern</h3>
+              <p class="job__org">Keluarga Mahasiswa Buddhis (KMB) UI, Depok</p>
+              <p>
+                <ul>
+                  <li>Designed a web article and KMBUI Inside: PPMB edition using Figma</li>
+                  <li>Created the copywriting for a web article</li>
+                </ul>
+              </p>
+              <ul class="job__tags">
+                <li>Graphic Design</li><li>Figma</li><li>Copy Writing</li>
+              </ul>
+            </div>
+          </li>
+          
+          <li class="job">
+            <div class="job__when">Sept 2025 — Nov 2025</div>
+            <div class="job__what">
+              <h3>Software Engineer Intern</h3>
+              <p class="job__org">Business and Partnerships Bureau, BEM UI, Depok</p>
+              <p>Gained practical experience in front-end development with Next.js, backend API testing with Postman, and version control using GitHub</p>
+              <ul class="job__tags">
+                <li>Postman</li><li>Django</li><li>Next.js</li><li>Github</li>
+              </ul>
+            </div>
+          </li>
+          
+        </ol>
+      </div>
+    </section>
+    
+    <section class="section" id="project">
+      <div class="section__head">
+        <span class="idx">04</span>
+        <h2>Project</h2>
+      </div>
+      
+      <div class="section__body">
+        <div class="works">     
+              <article class="work">
+                <div class="work__row">
+                  <span class="work__no">01</span>
+                  <div class="work__main">
+                    <h3 class="work__title">
+                      <a href="https://nusa-crop-gemastik.vercel.app/" target="_blank" rel="noopener">
+                        NUSA-CROP <span class="work__go" aria-hidden="true">&#8599;</span>
+                      </a>
+                    </h3>
+                    <p>
+                      NUSA-CROP is a crop recommendation system that helps identify the best
+                      local crops for marginal farmland using satellite imagery and
+                      environmental data. It's built for farmers working marginal land and the
+                      field officers who support them, turning local conditions into practical
+                      planting decisions.<br><br>
+                      Role: AI Engineer<br>designed and built the machine learning model behind
+                      the crop recommendations.
+                    </p>
+                    <p class="work__stack">Stack · React.js · Leaflet.js · Django · Django Rest Framework · Python · Scikit-learn · XGBoost · PostgreSQL · PostGIS · Docker · Railway · Vercel &nbsp;—&nbsp; 2026</p>
+                  </div>
+                  <figure class="work__shot">
+                    <img src="assets/nusa-crop.jpg" alt="NUSA-CROP — screenshot" loading="lazy" onerror="this.remove()">
+                  </figure>
+                </div>
+              </article>
+              
+              <article class="work">
+                <div class="work__row">
+                  <span class="work__no">02</span>
+                  <div class="work__main">
+                    <h3 class="work__title">
+                      <a href="https://" target="_blank" rel="noopener">
+                        Personal Portfolio Website <span class="work__go" aria-hidden="true">&#8599;</span>
+                      </a>
+                    </h3>
+                    <p>You are currently seeing this project :) a self-built responsive portfolio site built from
+                      scratch with HTML, CSS, and JavaScript to showcase my projects, skills,
+                      and background. Designed with a clean, straightforward layout so
+                      people can quickly get a sense of what I can do.
+                    </p>
+                    <p class="work__stack">Stack · HTML · CSS · Javascript &nbsp;—&nbsp; 2026</p>
+                  </div>
+                  <figure class="work__shot">
+                    <!-- EDIT ME: assets/projects/portfolio.jpg -->
+                    <img src="assets/portfolio.jpg" alt="Personal portfolio — screenshot" loading="lazy" onerror="this.remove()">
+                  </figure>
+                </div>
+              </article>
+              
+              <article class="work">
+                <div class="work__row">
+                  <span class="work__no">03</span>
+                  <div class="work__main">
+                    <h3 class="work__title">
+                      <a href="https://bobol.netsos.id" target="_blank" rel="noopener">
+                        CTF Challenge Author For "Bobol" Platform From NetSOS RISTEK Fasilkom UI
+                        <span class="work__go" aria-hidden="true">&#8599;</span>
+                      </a>
+                    </h3>
+                    <p>
+                      Designed and built security challenges that teach players reverse
+                      engineering and sandbox-escape skills, from beginner puzzles to a
+                      deployable network-based challenge.
+                    </p>
+                    <p class="work__stack">Stack · Python · C · Docker · CTFd · redpwn &nbsp;—&nbsp; 2026</p>
+                  </div>
+                  <figure class="work__shot">
+                    <!-- EDIT ME: assets/projects/bobol.jpg -->
+                    <img src="assets/bobol.jpg" alt="Bobol CTF — screenshot" loading="lazy" onerror="this.remove()">
+                  </figure>
+                </div>
+                <details class="work__more">
+                  <summary>
+                    <span class="work__more-label">Technical detail</span>
+                    <span class="work__more-ico" aria-hidden="true"></span>
+                  </summary>
+                  
+                  <div class="work__detail">
+                    
+                    <div class="work__case">
+                      <h4>Fortune Cookie Machine <span class="work__case-tag">pyjail · easy · python</span></h4>
+                      <p>A Python sandbox-escape challenge served
+                        over the network, running user input through eval with builtins stripped
+                        and a blocklist that breaks common copy-paste payloads, forcing players to
+                        reason about <code>MRO</code> traversal and list comprehensions to reach a file read.
+                        Packaged for deployment with <code>nsjail (redpwn/jail)</code>, <code>Docker</code>, and <code>CTFd</code> metadata.
+                      </p>
+                    </div>
+                    
+                    <div class="work__case">
+                      <h4>hacked <span class="work__case-tag">Reverse Engineering · easy · Pyc</span></h4>
+                      <p>A .pyc reversing challenge that decompiles to a
+                        layered <code>XOR + zlib + base64</code> loader, based on a real self-propagating
+                        file-encryptor, teaching players to analyze bytecode before running untrusted code.</p>
+                      </div>
+                      
+                      <div class="work__case">
+                        <h4>tali <span class="work__case-tag">Reverse Engineering · easy · C</span></h4>
+                        <p>A beginner reversing/forensics challenge hiding a reversed base64
+                          string in a binary's <code>.rodata</code>, solvable with strings and basic decoding.</p>
+                        </div>
+                        
+                        <div class="work__case">
+                          <h4>clockmod <span class="work__case-tag">Reverse Engineering · medium · C</span></h4>
+                          <p>A reversing
+                            challenge built around a custom stateful stream cipher, wrapped in
+                            three layers of anti-debugging <code>(ptrace self-trace, TracerPid check,
+                            and RDTSC timing)</code> that feed wrong results to anyone debugging
+                            without bypassing the protections first. Recover the key one byte at a time to solve.
+                          </p>
+                        </div>
+                      </div>
+                    </details>
+                  </article>
+                  
+                  <article class="work">
+                    <div class="work__row">
+                      <span class="work__no">04</span>
+                      <div class="work__main">
+                        <h3 class="work__title">
+                          <a href="https://sistech-finpro-ten.vercel.app/" target="_blank" rel="noopener">
+                            SafeStep <span class="work__go" aria-hidden="true">&#8599;</span>
+                          </a>
+                        </h3>
+                        <p>SafeStep helps women travel more safely with route recommendations,
+                          anonymous incident reporting, Emergency SOS, and a Trusted Circle that
+                          stays with you throughout your journey.<br><br>
+                          Role: AI Engineer <br> cleaned and prepared the data, built the machine
+                          learning model, and developed a REST API to serve the model to the web
+                          application.</p>
+                          <p class="work__stack">Stack · Python · Pandas · NumPy · Scikit-learn · SciPy · FastAPI · Uvicorn · Pydantic · Pytest &nbsp;—&nbsp; 2026</p>
+                        </div>
+                        <figure class="work__shot">
+                          <img src="assets/safestep.jpg" alt="SafeStep — screenshot" loading="lazy" onerror="this.remove()">
+                        </figure>
+                      </div>
+                    </article>
+                    
+                    <article class="work">
+                      <div class="work__row">
+                        <span class="work__no">05</span>
+                        <div class="work__main">
+                          <h3 class="work__title">
+                            <a href="https://sortifyai.netlify.app/" target="_blank" rel="noopener">
+                              Sortify <span class="work__go" aria-hidden="true">&#8599;</span>
+                            </a>
+                          </h3>
+                          <p>Sortify is a solution to everyday waste confusion. Instead of guessing
+                            where waste should go, users simply scan an item and instantly know how
+                            to dispose of it properly. With clear instructions and nearby disposal
+                            options, Sortify helps people make better waste decisions and reduces
+                            mismanaged waste from the start.<br><br>
+                            Role: Backend Developer<br> integrated the machine learning model into the
+                            backend and built the core business logic.</p>
+                            <p class="work__stack">Stack · Python · Django · Django REST Framework &nbsp;—&nbsp; 2026</p>
+                          </div>
+                          <figure class="work__shot">
+                            <img src="assets/sortify.jpg" alt="Sortify — screenshot" loading="lazy" onerror="this.remove()">
+                          </figure>
+                        </div>
+                      </article>
+                      
+                    </div>
+                    
+                    <p class="works__more">
+                      More on <a href="https://github.com/ViolinMonica" target="_blank" rel="noopener">GitHub</a>.
+                    </p>
+                  </div>
+                </section>
+                
+                <!-- ============================== CONTACT ============================== -->
+                <section class="section section--contact" id="contact">
+                  <div class="section__head">
+                    <span class="idx">05</span>
+                    <h2>Contact</h2>
+                  </div>
+                  
+                  <div class="section__body contact">
+                    <p class="contact__line">
+                      <!-- EDIT ME: one honest line about what you want to hear about -->
+                      Got a role to fill? Write to me.
+                    </p>
+                    
+                    <!-- EDIT ME: your email, twice (text and href) -->
+                    <a class="contact__mail" href="mailto:violinmonica190207@gmail.com">violinmonica190207@gmail.com</a>
+                    
+                    <ul class="contact__rows">
+                      <!-- EDIT ME: profile URLs and handles -->
+                      <li>
+                        <span>LinkedIn</span>
+                        <a href="https://linkedin.com/in/violin-monica" target="_blank" rel="noopener">/in/violin-monica</a>
+                      </li>
+                      <li>
+                        <span>GitHub</span>
+                        <a href="https://github.com/ViolinMonica" target="_blank" rel="noopener">@ViolinMonica</a>
+                      </li>
+                      <li>
+                        <span>Location</span>
+                        <a href="https://maps.app.goo.gl/g5jut79LfdLvD6Dz6">Depok, Indonesia</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+                
+              </main>
+              
+              <footer class="foot">
+                <p>© <span id="year">2026</span> Violin Monica</p>
+                <p>Built by hand. <a href="#home">Back to top ↑</a></p>
+              </footer>
+              
+              <script src="js/main.js"></script>
+            </body>
+            </html>
+            
